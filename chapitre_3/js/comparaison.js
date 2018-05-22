@@ -5,12 +5,14 @@ Exercice : comparer deux nombres
 var nbr1 = Number(prompt("Entrez un nombres entres 0 et 10"));
 if ((nbr1 >= 0) && (nbr1 < 10)) {
     var nbr2 = Number(prompt("Entrez un deuxieme nombres entres 0 et 10"));
-}  if ((nbr2 >= 0) && (nbr2 < 10)) {
-        var resultat = nbr1 + nbr2;
-        alert(`${nbr1} + ${nbr2} = ${resultat} `)
-    }else {
-        alert ("trop grand");
-    }
+}
+if ((nbr2 >= 0) && (nbr2 < 10)) {
+    var resultat = nbr1 + nbr2;
+    alert(`${nbr1} + ${nbr2} = ${resultat} `)
+}
+else {
+    alert("trop grand");
+}
 
 
 
