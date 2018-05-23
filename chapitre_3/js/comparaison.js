@@ -1,28 +1,13 @@
 /* 
 Exercice : comparer deux nombres
 */
+const nombres1 = Number(prompt("Entrez un chiffres"));
+const nombres2 = Number(prompt("Entrez un chiffres"));
 
-var nbr1 = Number(prompt("Entrez un nombres entres 0 et 10"));
-if ((nbr1 >= 0) && (nbr1 < 10)) {
-    var nbr2 = Number(prompt("Entrez un deuxieme nombres entres 0 et 10"));
+if (nombres1 < nombres2) {
+    alert(`${nombres1} est inferieur a ${nombres2}`)
+}else if (nombres1 > nombres2) {
+    alert(`${nombres1} est superieur a ${nombres2}`)
+}else {
+    alert(`${nombres1} et ${nombres2} sont egaux`)
 }
-if ((nbr2 >= 0) && (nbr2 < 10)) {
-    var resultat = nbr1 + nbr2;
-    alert(`${nbr1} + ${nbr2} = ${resultat} `)
-}
-else {
-    confirm("trop grand veut tu recommencer");
-    if (true) {
-        
-    }
-}
-
-
-
-
-    // Algo
-    // l'utilsateur rentre un 1 er nombres
-    // si le nombre est compris entre 0 et 10
-    // l'utisateur rentre un deuxieme nombres
-    // si le deuxieme nombres est compris entre 0 et 10
-    // alors on n'affiche le calcul a l'ecran
