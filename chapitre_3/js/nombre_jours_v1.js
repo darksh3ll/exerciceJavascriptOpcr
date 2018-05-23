@@ -12,17 +12,18 @@ switch (numeroMois) {
     case 8:
     case 10:
     case 12:
-        alert("mois a 31 jours")
+        alert("mois a 31 jours");
         break;
     case 4:
     case 6:
     case 9:
     case 11:
-        alert("mois a 30 jours")
+        alert("mois a 30 jours");
         break;
     case 2:
-        alert("mois a 28 jours")
+        alert("mois a 28 jours");
         break;
     default:
         alert("Mois non reconnues")
 }
+
