@@ -11,8 +11,12 @@ if ((nbr2 >= 0) && (nbr2 < 10)) {
     alert(`${nbr1} + ${nbr2} = ${resultat} `)
 }
 else {
-    alert("trop grand");
+    confirm("trop grand veut tu recommencer");
+    if (true) {
+        
+    }
 }
+
 
 
 
