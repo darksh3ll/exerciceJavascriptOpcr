@@ -2,6 +2,7 @@
 Exercice : afficher l'heure une seconde plus tard
 */
 
+<<<<<<< Updated upstream
 let heures = 9;
 let minutes = 59;
 let secondes = 59;
@@ -25,3 +26,12 @@ if ((heures >= 0) && (heures <= 23) && (minutes >= 0) && (minutes <= 59) && (sec
 }else {
   console.log("heures incorect");
 }
+=======
+const heures    = 12;
+const minutes   = 59;
+const seconde   = 30;
+
+if (heures) {
+    
+}
+>>>>>>> Stashed changes
