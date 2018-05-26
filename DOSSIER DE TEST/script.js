@@ -7,3 +7,4 @@ const tempsParcours = distance/vitesse*60;//temps parcours  minutes
 const allerRetour = 60/tempsParcours
 console.log(`durer ${tempsParcours} seconde et ${allerRetour} Aller Retour en 1 secondes`)
 
+
