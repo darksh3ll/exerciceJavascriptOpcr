@@ -1,20 +1,14 @@
-/* 
+/*
 Exercice : fonction bonjour avec saisies utilisateur
 */
 
 //Renvoie un message de bienvenue
 
+const nom       = prompt("Entrez votre nom");
+const prenom    = prompt("entrez votre prenom");
 
-let temp = 0;
-
-function tempsHeures(vitesse,km) {
-    console.log(km/vitesse);
-}
-function tempsMinutes(vitesse,km) {
-    const vitesse = 30;
-    const km = 1000;
-    temp=(km/vitesse)*3600;
+function direBonjour(nom,prenom) {
+    return `bonjour ${prenom} ${nom}`
 }
 
-tempsMinutes();
-console.log(temp);
+alert(direBonjour(nom,prenom));
