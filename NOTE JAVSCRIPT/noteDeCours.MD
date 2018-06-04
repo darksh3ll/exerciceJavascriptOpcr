@@ -1,6 +1,6 @@
 Voici un code en C :
 
  ``` javascript
- var num = 12 ;
- console.log(num);
+    var num = 12 ;
+    console.log(num);
  ```
