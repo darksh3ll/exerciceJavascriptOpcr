@@ -1,6 +1,2 @@
-Voici un code en C :
+#Fonctions
 
- ``` javascript
-    var num = 12 ;
-    console.log(num);
- ```
