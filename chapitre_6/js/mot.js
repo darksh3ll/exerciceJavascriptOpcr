@@ -42,12 +42,12 @@ function motInverser(mot) {
     return `Il s'écrit a l'envers ${inverse}`;
 
 }
-const mot = "gerard";
+const mot = "gerardwrobel";
 const longueurMot = mot.length;
 const motMinuscules = mot.toLowerCase();
 const motMajuscules = mot.toUpperCase();
 console.log(`le mot ${mot} contient ${longueurMot} caractéres`);
 console.log(`Il s'écrit en minuscules ${motMinuscules}`);
 console.log(`Il s'écrit en majuscules ${motMajuscules}`);
-console.log(nbVoyelles("mot"));
-console.log(motInverser("mot"));
+console.log(nbVoyelles(mot));
+console.log(motInverser(mot));
