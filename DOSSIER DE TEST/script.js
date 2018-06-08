@@ -1,4 +1,3 @@
-
 const ordinateur    = {
     marque          : "apple",
     type            : "latop",
@@ -12,4 +11,8 @@ ordinateur.marque = "hp";
 
 console.log(`ordinateur de marque ${ordinateur.marque} de type ${ordinateur.type} référence ${ordinateur.ref} annee ${ordinateur.annee}`);
 
-console.log(ordinateur.prix);
+window.fetch('http://api.openweathermap.org/data/2.5/weather?q=Toulon&units=metric&lang=fr&appid=06b50d32565202dcd5d76bc954529d6b')
+    .then(res => res.json())
+    .then(resjson => console.log(resjson));
+
+
