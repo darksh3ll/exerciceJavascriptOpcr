@@ -10,7 +10,7 @@ function perimetreCircle(x) {
 function aireCircle(x) {
     return Math.PI * Math.pow(x,2);
 }
-const number = 5 ;
+const number = 2.5 ;
 console.log(`le périmetre de ${number} est de ${perimetreCircle(number).toFixed(2)} avec une aire de ${aireCircle(number).toFixed(2)} Cm2 `);
 
 //Formule calcul périmetre d`un cercle
