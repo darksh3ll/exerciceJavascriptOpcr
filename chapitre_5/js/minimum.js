@@ -1,4 +1,4 @@
-/* 
+/*
 Exercice : fonction minimum
 */
 function minimum(a,b,c) {
