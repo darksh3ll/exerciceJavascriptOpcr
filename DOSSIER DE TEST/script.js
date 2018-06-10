@@ -1,18 +1,24 @@
-const ordinateur    = {
-    marque          : "apple",
-    type            : "latop",
-    ref             : "Mac Book Pro",
-    annee           : 2017,
-    prix            : 3000
+const Personnage = {
+    //Initialise le joueur
+    init: function (nom, sante, force) {
+        this.nom = nom;
+        this.sante = sante;
+        this.force = force;
+        this.experience = 0;
+    },
+
+    //Description du personnage
+    decrire: function () {
+        return `${this.nom} a ${this.sante} points de vie ${this.force} en force et ${this.experience} éxpérience`
+
+    },
 };
 
-ordinateur.marque = "asus";
-ordinateur.marque = "hp";
+const perso1 = Object.create(Personnage);
+perso1.init("stephane",150,25);
 
-console.log(`ordinateur de marque ${ordinateur.marque} de type ${ordinateur.type} référence ${ordinateur.ref} annee ${ordinateur.annee}`);
+const perso2 = Object.create(Personnage);
+perso2.init("Alex",150,25);
 
-window.fetch('http://api.openweathermap.org/data/2.5/weather?q=Toulon&units=metric&lang=fr&appid=06b50d32565202dcd5d76bc954529d6b')
-    .then(res => res.json())
-    .then(resjson => console.log(resjson));
-
-
+console.log(perso1.decrire());
+console.log(perso2.decrire());
