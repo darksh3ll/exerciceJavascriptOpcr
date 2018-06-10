@@ -16,7 +16,7 @@ const chient = {
     aboyer: function () {
         return `${this.nom} GRRR! GRRRR! GR!!!!!!!!`
     }
-}
+};
 
 console.log(chient.decrire());
 const animaux = "chat";

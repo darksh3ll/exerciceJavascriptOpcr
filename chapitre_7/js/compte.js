@@ -23,7 +23,7 @@ const compteBancaire = {
         }
 
     }
-}
+};
 
 console.log(compteBancaire.decrire());
 compteBancaire.debiter(200);

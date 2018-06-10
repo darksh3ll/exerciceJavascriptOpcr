@@ -21,3 +21,7 @@ console.log(Math.min(12,36,5,1));
 console.log("Destructuring");
 const arr = [12,14,2,8,6,3,1,0];
 console.log(Math.min(...arr));
+
+//Condition Ternaire
+const num = 12 ;
+console.log(num < 15 ? "oui":"non"); //renvoie oui car 12 < 15
