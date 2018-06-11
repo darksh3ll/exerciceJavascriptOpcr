@@ -1,24 +1,22 @@
-const Personnage = {
-    //Initialise le joueur
-    init: function (nom, sante, force) {
-        this.nom = nom;
-        this.sante = sante;
-        this.force = force;
-        this.experience = 0;
+const chien = {
+
+    init: function (nom, race, age) {
+        this.nom  = nom;
+        this.race = race;
+        this.age  = age;
     },
 
-    //Description du personnage
-    decrire: function () {
-        return `${this.nom} a ${this.sante} points de vie ${this.force} en force et ${this.experience} éxpérience`
+    description: function () {
+        return `${this.nom} est un ${this.race} agé de ${this.age} ans`
+    }
 
-    },
-};
+}
 
-const perso1 = Object.create(Personnage);
-perso1.init("stephane",150,25);
+const chien1 = Object.create(chien);
+chien1.init("Ralf", "Coker", 5);
 
-const perso2 = Object.create(Personnage);
-perso2.init("Alex",150,25);
+const chien2 = Object.create(chien);
+chien2.init("Max", "Pit-Bull", 3)
 
-console.log(perso1.decrire());
-console.log(perso2.decrire());
+console.log(chien1.age < chien2.age ? "oui" : "non");
+
